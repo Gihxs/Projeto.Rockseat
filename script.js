@@ -12,8 +12,8 @@ function toggLeMode() {
     // substituir a imagem
     if (html.classList.contains("light")) {
     //condição do tema light 
-      img.setAttribute("src", "./images/avatar-dark.png")
-    } else {
       img.setAttribute("src", "./images/avatar-light.png")
+    } else {
+      img.setAttribute("src", "./images/avatar-dark.png")
     }
 }
